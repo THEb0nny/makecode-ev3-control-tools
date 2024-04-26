@@ -1,6 +1,6 @@
 {
     "name": "control-tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Custom control methods. The execution delay is at the specified time.",
     "dependencies": {
         "ev3": "*"
