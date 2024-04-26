@@ -7,8 +7,8 @@ namespace control {
      * @param delay waiting time, eg: 10
      */
     //% blockId="PauseUntilTime"
-    //% block="starting from $startTime| wait for $delay|ms"
-    //% block.loc.ru="начиная от $startTime| ждать $delay|мс"
+    //% block="starting from $startTime|ms wait for $delay|ms"
+    //% block.loc.ru="начиная от $startTime|мс ждать $delay|мс"
     //% weight="6"
     export function pauseUntilTime(startTime: number, ms: number) {
         if (startTime == 0) startTime = control.millis();
