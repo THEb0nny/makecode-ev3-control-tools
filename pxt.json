@@ -1,5 +1,6 @@
 {
     "name": "control-tools",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "ev3": "*"
