@@ -1,0 +1,23 @@
+{
+    "name": "control-tools",
+    "description": "",
+    "dependencies": {
+        "ev3": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "control.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.4.41",
+        "targetId": "ev3"
+    },
+    "supportedTargets": [
+        "ev3"
+    ],
+    "preferredEditor": "tsprj"
+}
