@@ -10,9 +10,9 @@ namespace control {
     //% block="starting from $startTime|ms wait for $delay|ms"
     //% block.loc.ru="начиная от $startTime|мс ждать $delay|мс"
     //% weight="6"
-    export function pauseUntilTime(startTime: number, ms: number) {
+    export function pauseUntilTime(startTime: number, delay: number) {
         if (startTime == 0) startTime = control.millis();
-        const waitCompletionTime = startTime + ms;
+        const waitCompletionTime = startTime + delay;
         while (control.millis() < waitCompletionTime) loops.pause(0.01);
     }
 
