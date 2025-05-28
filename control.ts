@@ -1,10 +1,9 @@
 namespace control {
 
     /**
-     * A method to wait for the end of the cycle for a specified time.
      * Метод для ожидания завершения цикла в течение заданного времени.
-     * @param startTime start time, eg: 0
-     * @param delay waiting time, eg: 10
+     * @param startTime стартовое время, eg: 0
+     * @param delay время ожидания, eg: 10
      */
     //% blockId="PauseUntilTime"
     //% block="starting from $startTime|ms wait for $delay|ms"
